@@ -6,10 +6,7 @@
  * 		=> 각 달의 마지막 날
  *  3) 1일 출력
  * 
- * 
- * 
  */
-import java.util.Calendar;
 import java.util.Scanner;
 public class 메소드달력 {
 	//입력

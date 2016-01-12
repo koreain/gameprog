@@ -14,9 +14,14 @@
  */
 import javax.swing.*;
 public class 멤버변수 {
-	String name; //초기 null값 (주소값이 없음)
+	String name="심청이"; //초기 null값 (주소값이 없음)
 	String tel;
 	String addr;
+	void setAaa()
+	{
+		String name="홍길동"; //멤버변수와 지역변수가 명칭이 동일할 때, 지역변수가 우선한다.
+		System.out.println(this.name);
+	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		멤버변수 a=new 멤버변수(); //name변수가 저장

@@ -15,8 +15,6 @@ public class 석차구하기 {
 	//점수입력받기
 	static int[] input()
 	{
-
-		
 		for(int i=0; i<5; i++)
 		{
 			Scanner scan=new Scanner(System.in);

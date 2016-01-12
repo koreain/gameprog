@@ -63,7 +63,8 @@ public class ÇÊ±â {
 		System.out.println("replace return: "+c.replace("ab", "cc")); 	
 		System.out.println("replaceAll return: "+c.replaceAll("cd","cc"));
 		System.out.println("charAt return: "+c.charAt(2));
-		 
+		String[] abc=new String[5];
+		System.out.println(abc);
 	}
 
 }
